@@ -1,0 +1,134 @@
+* {
+    font-family: 'arial', sans-serif;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.navigationBar {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    width: 900px;
+    height: 75px;
+    position: relative; left: 500px;
+    font-family: 'arial', sans-serif;
+    background-color:black;
+    color: white;
+} 
+
+.underNav {
+    flex: 1;
+    position: relative; left: 850px;
+    
+}
+
+.mainCard {
+    display: flex;
+    justify-content: center;
+    position: relative; left: 500px;
+    background-color: rgb(191, 225, 231);
+    width: 200px;
+    height: 315px;
+    border-style: solid;
+    
+}
+.picureSection {
+    padding-left: 20px;
+}
+
+.avatarText{
+    padding-left: 20px;
+}
+img {
+    border-radius: 50px;
+    position: relative; top: 30px;
+    position: relative; left: 20px;
+    
+}
+
+h2 {
+    position: relative; top: 35px;
+    font-size: 32px;
+
+}
+
+.topRow {
+    flex: 1;
+    padding-left: 15px;
+    border-style: solid;
+    width: 570px;
+    height: 170px;
+    position: relative; left: 800px;
+    position: relative; bottom: 320px;
+    font-size: 18px;
+}
+
+
+.middleRow {
+    padding-left: 20px;
+    border-style: solid;
+    width: 565px;
+    height: 170px;
+    position: relative; left: 800px;
+    position: relative; bottom: 310px;
+    font-size: 18px;
+}
+
+.bottomRow {
+    padding-left: 10px;
+    border-style: solid;
+    width: 575px;
+    height: 170px;
+    position: relative; left: 800px;
+    position: relative; bottom: 300px;
+    font-size: 18px;
+}
+
+
+
+button#demo1.btn-click-count {
+    background-color: rgb(255, 191, 0);
+    width: 80px;
+    height: 35px;
+    box-shadow: 5px 5px;
+    position: relative; left: 470px;
+    position: relative; bottom: 150px
+
+}
+
+
+button#demo2.btn-click-count{
+    background-color: rgb(255, 191, 0);
+    width: 80px;
+    height: 35px;
+    box-shadow: 5px 5px;
+    position: relative; left: 470px;
+    position: relative; bottom: 125px
+} 
+
+
+button#demo3.btn-click-count{ 
+    background-color: rgb(255, 191, 0);
+    width: 80px;
+    height: 35px;
+    box-shadow: 5px 5px;
+    position: relative; left: 480px;
+    position: relative; bottom: 150px
+} 
+
+
+    
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
